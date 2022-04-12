@@ -1,0 +1,817 @@
+/* global style start here*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+
+/* ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+} */
+
+p {
+    font-weight: 500;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #0B2D4E;
+}
+
+/* global style end here*/
+
+/* ================================================================================= */
+
+/* Home section start here */
+
+.home {
+    background-image: linear-gradient(to bottom, rgba(9, 33, 66, 0.9) 5%, rgba(9, 33, 66, 1) 95%), url('Images/bg1.jpeg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.svg {
+    position: absolute;
+    bottom: 0;
+}
+
+.btn {
+    font-weight: 600;
+}
+
+.nav-item {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.nav-item a:hover,
+.nav-item a:active,
+.nav-item a:focus{
+    color: orangered !important;
+}
+
+/* change navbar styles on scroll using javascript*/
+/* .window-scroll{
+    background: white !important;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+} */
+
+
+nav ul li a{
+    color: #010b18 !important;
+}
+
+/* Home section end here */
+
+/* =============================================================================== */
+
+/* choose section start here */
+
+/* card style start */
+.cardstyle1 .icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(227, 225, 225);
+    border-radius: 5rem;
+    margin: auto;
+    display: inline-block;
+}
+
+.cardstyle1 .icon>i {
+    position: absolute;
+    top: 24%;
+    transform: translate(-50%, -50%);
+    color: #0B2D4E;
+}
+
+.cardstyle2 .icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: #E7EFFF;
+    border-radius: 5rem;
+    margin: auto;
+    display: inline-block;
+}
+
+.cardstyle2 .icon>i {
+    position: absolute;
+    top: 24%;
+    transform: translate(-50%, -50%);
+    color: #5089fd;
+}
+
+.cardstyle3 .icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: #FEEFE2;
+    border-radius: 5rem;
+    margin: auto;
+    display: inline-block;
+}
+
+.cardstyle3 .icon>i {
+    position: absolute;
+    top: 24%;
+    transform: translate(-50%, -50%);
+    color: #fea456;
+}
+
+.cardstyle4 .icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: #eaf6ce;
+    border-radius: 5rem;
+    margin: auto;
+    display: inline-block;
+}
+
+.cardstyle4 .icon>i {
+    position: absolute;
+    top: 24%;
+    transform: translate(-50%, -50%);
+    color: #b9e25b;
+}
+
+.cardstyle5 .icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: #E9E8F4;
+    border-radius: 5rem;
+    margin: auto;
+    display: inline-block;
+}
+
+.cardstyle5 .icon>i {
+    position: absolute;
+    top: 24%;
+    transform: translate(-50%, -50%);
+    color: #766dd7;
+}
+
+.cardstyle6 .icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: #FEE8F3;
+    border-radius: 5rem;
+    margin: auto;
+    display: inline-block;
+}
+
+.cardstyle6 .icon>i {
+    position: absolute;
+    top: 24%;
+    transform: translate(-50%, -50%);
+    color: #FB8CC3;
+}
+
+.card h3 {
+    font-weight: 600;
+}
+
+/* card style start */
+
+/* choose section end here */
+
+/* ========================================================================== */
+
+/* course section start here */
+.course {
+    background: rgb(245, 245, 245);
+}
+
+.course .card .card-footer .left img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.course .card .card-footer .left a {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.course .card .card-footer .left a:hover {
+    color: rgb(97, 86, 86) !important;
+    text-decoration: underline !important;
+}
+
+.course .card .course-icon .right small {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.course .card .card-body>a h2:hover {
+    color: orangered;
+}
+
+.course .card .card-body .course-icon .right i {
+    color: #0B2D4E;
+}
+
+/* course section end here */
+
+/* ===================================================================== */
+
+/* events section start here */
+.events .card .card-body>a h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.events .card .card-body>a h4:hover {
+    color: orangered;
+}
+
+.events .card .card-body>a h2:hover {
+    color: orangered;
+}
+
+.events .card .card-footer div a {
+    color: #0B2D4E;
+    font-weight: 600;
+}
+
+.events .card .card-footer div i {
+    color: #0B2D4E;
+}
+
+.events .card .card-footer .btn {
+    transition: all 600ms ease-in-out;
+}
+
+.events .card .card-footer div a:hover,
+i:hover {
+    color: #fff;
+}
+
+.events .card .card-footer .btn:hover {
+    background: orangered;
+}
+
+.events .card .card-img .date-text {
+    width: 5rem;
+    height: 4rem;
+    padding: 2rem 1.5rem;
+    background: orangered;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    padding: .5rem;
+}
+
+.events .card .card-img .date-text h4 {
+    margin: 0;
+    margin-bottom: -5px;
+}
+
+.events .card .card-img .date-text p {
+    font-weight: 600;
+    margin: 0;
+}
+
+/* events section end here */
+
+/* ====================================================== */
+
+/* achivement section start here */
+.achivement {
+    background-image: linear-gradient(to bottom, rgba(7, 41, 77, 0.8) 5%, rgba(7, 41, 77, 1) 95%), url('Images/bg3.jpg');
+}
+
+.achivement .icon {
+    font-size: 5rem;
+    color: #D672CD;
+    margin-bottom: 0;
+}
+
+/* achivement section end here */
+
+/* ============================================================= */
+
+/* gallery section end here */
+.gallery .gallery_img .gallery__item {
+    position: relative;
+}
+
+.gallery .gallery_img .gallery__item .image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(11, 45, 78, 0.9);
+    color: #0B2D4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+
+.gallery .gallery_img .gallery__item .image__overlay>* {
+    transform: translateY(-80px);
+    transition: transform .5s;
+}
+
+.gallery .gallery_img .gallery__item .image__overlay a {
+    font-size: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    background: orangered;
+    border-radius: 10rem;
+    text-align: center;
+    text-align: center;
+}
+
+.gallery .gallery_img .gallery__item .image__overlay a i {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #0B2D4E;
+}
+
+.gallery .gallery_img .gallery__item .image__overlay:hover {
+    opacity: 1;
+}
+
+.gallery .gallery_img .gallery__item .image__overlay:hover>* {
+    transform: translateY(0);
+}
+
+/* gallery section end here */
+
+/* ======================================== */
+
+/* team section end here */
+
+.team {
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+    background: rgb(245, 245, 245);
+}
+
+.team .team_card .team_image {
+    position: relative;
+}
+
+.team .team_card .team_image .image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(11, 45, 78, 0.9);
+    color: #0B2D4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .2s ease-in-out;
+    gap: 10px;
+}
+
+.team .team_card .team_image .image__overlay>* {
+    transform: translateY(-80px);
+    transition: transform .5s;
+}
+
+.team .team_card .team_image .image__overlay a:nth-child(1) {
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    background: #4267B2;
+    border-radius: .2rem;
+    text-align: center;
+}
+
+.team .team_card .team_image .image__overlay a:nth-child(2) {
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    background: #00acee;
+    border-radius: .2rem;
+    text-align: center;
+}
+
+.team .team_card .team_image .image__overlay a:nth-child(3) {
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    background: #0077b5;
+    border-radius: .2rem;
+    text-align: center;
+}
+
+.team .team_card .team_image .image__overlay a:nth-child(4) {
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    background: #FF0000;
+    border-radius: .2rem;
+    text-align: center;
+}
+
+.team .team_card .team_image .image__overlay a i {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    /* gap: 30px; */
+}
+
+.team .team_card .team_image .image__overlay:hover {
+    opacity: 1;
+}
+
+.team .team_card .team_image .image__overlay:hover>* {
+    transform: translateY(0);
+}
+
+/* team section end here */
+
+/* =========================================== */
+
+/* pricing section end here */
+.pricing .card .card-price{
+    background: #EEEEEE;
+}
+.pricing .card ul li{
+    color: black;
+    font-weight: 500;
+}
+
+/* card-1 start */
+.pricing .card-1 h4{
+    background: #4382FF;
+}
+.pricing .card-1 .card-price h5{
+    color: #4382FF;
+}
+.pricing .card-1 .card-body a{
+    background: #4382FF;
+    color: white;
+}
+/* card-1 end */
+
+/* card-2 start */
+.pricing .card-2{
+    margin-top: -2rem !important;
+}
+.pricing .card-2 h4{
+    background: #554DA7;
+}
+.pricing .card-2 .card-price h5{
+    color: #554DA7;
+}
+.pricing .card-2 .card-body a{
+    background: #554DA7;
+    color: white;
+}
+/* card-2 end */
+
+/* card-3 start */
+.pricing .card-3 h4{
+    background: #F94FA4;
+}
+.pricing .card-3 .card-price h5{
+    color: #F94FA4;
+}
+.pricing .card-3 .card-body a{
+    background: #F94FA4;
+    color: white;
+}
+/* card-3 end */
+
+/* pricing section end here */
+
+/* =============================================== */
+
+/* blog section end here */
+.blog{
+    background: rgb(245, 245, 245);
+}
+.blog .card .card-body>a h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.blog .card .card-body>a h4:hover {
+    color: orangered;
+}
+
+.blog .card .card-body>a h2:hover {
+    color: orangered;
+}
+
+.blog .card .card-footer div a {
+    color: #0B2D4E;
+    font-weight: 600;
+}
+
+.blog .card .card-footer div i {
+    color: #0B2D4E;
+}
+
+.blog .card .card-footer .btn {
+    transition: all 600ms ease-in-out;
+}
+
+/* .blog .card .card-footer div a:hover,
+i:hover {
+    color: #fff;
+} */
+
+/* .blog .card .card-footer .btn:hover {
+    background: orangered;
+} */
+
+.blog .card .card-img .date-text {
+    width: 5rem;
+    height: 4rem;
+    padding: 2rem 1.5rem;
+    background: orangered;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    padding: .5rem;
+}
+.blog .card .card-img .date-text h4 {
+    margin: 0;
+    margin-bottom: -5px;
+}
+
+.blog .card .card-img .date-text p {
+    font-weight: 600;
+    margin: 0;
+}
+/* blog section end here */
+
+/* brand section start here */
+.swiper-wrapper{
+    transition-delay: 1s;
+}
+/* brand section end here */
+
+/* ================================================================= */
+
+/* footer section end here */
+.footer{
+    background-image: linear-gradient(to bottom, rgba(9, 33, 66, 0.9) 5%, rgba(9, 33, 66, 1) 95%), url('Images/bg4.jpeg');
+    /* linear-gradient(to bottom, rgba(7, 41, 77, 0.8) 5%, rgba(7, 41, 77, 1) 95%), url('Images/bg3.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%,100%;
+    /* height: fit-content; */
+}
+.footer h3{
+    color: orangered; 
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    /* margin-left: 0; */
+}
+.footer h4{
+    color: orangered; 
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    /* margin-left: 0; */
+}
+.footer h3::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 30%;
+    height: 2px;
+    background: orangered;
+    font-weight: bold;
+}
+.footer h4::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 30%;
+    height: 2px;
+    background: orangered;
+    font-weight: bold;
+}
+.footer ul li{
+    list-style: none;
+}
+/* .footer .first__col{
+    flex-basis: 6%;
+}
+.footer .second__col{
+    flex-basis: 13%;
+} */
+/* .footer .support{
+    /* flex-basis: fit-content; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* text-align: center;
+    margin: 10px 0; 
+} */
+/* .download{
+    flex-basis: 10%;
+} */
+.footer i{
+    color: orangered;
+    /* font-size: 0.6rem; */
+}
+.footer .social_links .link_1{
+    width: 22%;
+    background-color: rgb(66, 103, 178);
+}
+.footer .social_links .link_1:hover{
+    background-color: rgba(66, 103, 178, 0.9);
+}
+
+.footer .social_links .link_2{
+    width: 20%;
+    background-color: rgb(0, 135, 186);
+}
+.footer .social_links .link_2:hover{
+    background-color: rgba(0, 135, 186, 0.9);
+}
+
+.footer .social_links .link_3{
+    width: 22%;
+    background-color: rgb(28, 143, 199);
+}
+.footer .social_links .link_3:hover{
+    background-color: rgba(28, 143, 199, 0.9);
+}
+
+.footer .social_links .link_4{
+    width: 22%;
+    background-color: rgb(186, 13, 13);
+}
+.footer .social_links .link_4:hover{
+    background-color: rgba(186, 13, 13, 0.9);
+}
+
+.footer .social_links a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.footer .social_links a i{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer .social_links .link_1 .left{
+    background: rgb(62, 92, 154);
+}
+.footer .social_links .link_1 .left:hover{
+    background: rgba(62, 92, 154, 0.5);
+}
+
+.footer .social_links .link_2 .left{
+    background: rgb(6, 159, 219);
+}
+.footer .social_links .link_2 .left:hover{
+    background: rgba(6, 159, 219, 0.5);
+}
+
+.footer .social_links .link_3 .left{
+    background: rgb(20, 110, 156);
+}
+.footer .social_links .link_3 .left:hover{
+    background: rgba(20, 110, 156, 0.5);
+}
+
+.footer .social_links .link_4 .left{
+    background: rgb(255, 19, 20);
+}
+.footer .social_links .link_4 .left:hover{
+    background: rgba(254, 7, 7, 0.5);
+}
+
+.footer .feature_links ul li .right a:hover, .support ul li .right a:hover{
+    color: orangered !important;
+}
+
+/* copyright section start */
+.copyright{
+    width: auto;
+    height: 4.5rem;
+}
+.copyright .col{
+    background: #03152d;
+}
+.copyright p{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.copyright p span{
+    color: orangered;
+}
+/* copyright section end */
+
+/* footer section end here */
+
+/* ======================================================================================= */
+
+/* media query start here */
+
+@media only screen and (max-width:768px) {
+
+    /* pricing section start */
+    .pricing .card-2{
+        margin-top: 0 !important;
+    }
+    /* pricing section end */
+
+    /*----- footer section start -----*/
+    .footer .social_links .link_1{
+        width: 22% !important;
+    }
+
+    .footer .social_links .link_2{
+        width: 18% !important;
+    }
+
+    .footer .social_links .link_3{
+        width: 20% !important;
+    }
+
+    .footer .social_links .link_4{
+        width: 20% !important;
+    }
+
+    .footer .social_links a{
+        font-size: 1rem;
+    }
+
+    .footer .social_links a i{
+        font-size: 1.2rem;
+    }
+    /*----- footer section end -----*/
+}
+
+@media only screen and (min-width:1024px) {
+
+    /*----- footer section start -----*/
+    .footer .social_links .link_1{
+        width: 22% !important;
+    }
+
+    .footer .social_links .link_2{
+        width: 20% !important;
+    }
+
+    .footer .social_links .link_3{
+        width: 22% !important;
+    }
+
+    .footer .social_links .link_4{
+        width: 22% !important;
+    }
+    /*----- footer section end -----*/
+}
+
+@media only screen and (max-width:525px) {
+
+    /*----- footer section start -----*/
+    .footer .social_links .link_1{
+        width: 80% !important;
+    }
+
+    .footer .social_links .link_2{
+        width: 80% !important;
+    }
+
+    .footer .social_links .link_3{
+        width: 80% !important;
+    }
+
+    .footer .social_links .link_4{
+        width: 80% !important;
+    }
+    /*----- footer section end -----*/
+}
+
+
+/* media query end here */
+
