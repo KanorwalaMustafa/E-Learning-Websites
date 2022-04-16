@@ -6,12 +6,12 @@ body {
     scroll-behavior: smooth;
 }
 
-html{
+html {
     overflow: scroll;
     overflow-x: hidden;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0;
     background: transparent;
 }
@@ -24,7 +24,12 @@ p {
     font-weight: 500;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #0B2D4E;
 }
 
@@ -51,6 +56,14 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
 }
 
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    width: 100vw;
+    height: 5rem;
+}
+
 .nav-item {
     font-weight: 600;
     font-size: 1.2rem;
@@ -58,18 +71,18 @@ h1,h2,h3,h4,h5,h6 {
 
 .nav-item a:hover,
 .nav-item a:active,
-.nav-item a:focus{
+.nav-item a:focus {
     color: orangered !important;
 }
 
 /* change navbar styles on scroll using javascript*/
-/* .window-scroll{
+.window-scroll{
     background: white !important;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-} */
+}
 
 
-nav ul li a{
+nav ul li a {
     color: #010b18 !important;
 }
 
@@ -220,6 +233,13 @@ nav ul li a{
 }
 
 /* course section end here */
+
+.course__heading {
+    background-image: linear-gradient(to bottom, rgba(7, 41, 77, 0.8) 5%, rgba(7, 41, 77, 1) 95%), url('Images/bg3.jpg');
+    height: 30vh;
+    top: 10rem;
+}
+
 
 /* ===================================================================== */
 
@@ -446,54 +466,65 @@ i:hover {
 /* =========================================== */
 
 /* pricing section end here */
-.pricing .card .card-price{
+.pricing .card .card-price {
     background: #EEEEEE;
 }
-.pricing .card ul li{
+
+.pricing .card ul li {
     color: black;
     font-weight: 500;
 }
 
 /* card-1 start */
-.pricing .card-1 h4{
+.pricing .card-1 h4 {
     background: #4382FF;
 }
-.pricing .card-1 .card-price h5{
+
+.pricing .card-1 .card-price h5 {
     color: #4382FF;
 }
-.pricing .card-1 .card-body a{
+
+.pricing .card-1 .card-body a {
     background: #4382FF;
     color: white;
 }
+
 /* card-1 end */
 
 /* card-2 start */
-.pricing .card-2{
+.pricing .card-2 {
     margin-top: -2rem !important;
 }
-.pricing .card-2 h4{
+
+.pricing .card-2 h4 {
     background: #554DA7;
 }
-.pricing .card-2 .card-price h5{
+
+.pricing .card-2 .card-price h5 {
     color: #554DA7;
 }
-.pricing .card-2 .card-body a{
+
+.pricing .card-2 .card-body a {
     background: #554DA7;
     color: white;
 }
+
 /* card-2 end */
 
 /* card-3 start */
-.pricing .card-3 h4{
+.pricing .card-3 h4 {
     background: #F94FA4;
 }
-.pricing .card-3 .card-price h5{
+
+.pricing .card-3 .card-price h5 {
     color: #F94FA4;
 }
-.pricing .card-3 .card-body a{
+
+.pricing .card-3 .card-body a {
     background: #F94FA4;
     color: white;
 }
+
 /* card-3 end */
 
 /* pricing section end here */
@@ -501,9 +532,10 @@ i:hover {
 /* =============================================== */
 
 /* blog section end here */
-.blog{
+.blog {
     background: rgb(245, 245, 245);
 }
+
 .blog .card .card-body>a h4 {
     font-size: 1.4rem;
     font-weight: 500;
@@ -551,6 +583,7 @@ i:hover {
     text-align: center;
     padding: .5rem;
 }
+
 .blog .card .card-img .date-text h4 {
     margin: 0;
     margin-bottom: -5px;
@@ -560,40 +593,45 @@ i:hover {
     font-weight: 600;
     margin: 0;
 }
+
 /* blog section end here */
 
 /* brand section start here */
-.swiper-wrapper{
+.swiper-wrapper {
     transition-delay: 1s;
 }
+
 /* brand section end here */
 
 /* ================================================================= */
 
 /* footer section end here */
-.footer{
+.footer {
     background-image: linear-gradient(to bottom, rgba(9, 33, 66, 0.9) 5%, rgba(9, 33, 66, 1) 95%), url('Images/bg4.jpeg');
     /* linear-gradient(to bottom, rgba(7, 41, 77, 0.8) 5%, rgba(7, 41, 77, 1) 95%), url('Images/bg3.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%,100%;
+    background-size: 100%, 100%;
     /* height: fit-content; */
 }
-.footer h3{
-    color: orangered; 
+
+.footer h3 {
+    color: orangered;
     position: relative;
     font-weight: 600;
     margin-bottom: 2rem;
     /* margin-left: 0; */
 }
-.footer h4{
-    color: orangered; 
+
+.footer h4 {
+    color: orangered;
     position: relative;
     font-weight: 600;
     margin-bottom: 2rem;
     /* margin-left: 0; */
 }
-.footer h3::after{
+
+.footer h3::after {
     content: "";
     position: absolute;
     left: 0;
@@ -603,7 +641,8 @@ i:hover {
     background: orangered;
     font-weight: bold;
 }
-.footer h4::after{
+
+.footer h4::after {
     content: "";
     position: absolute;
     left: 0;
@@ -613,9 +652,11 @@ i:hover {
     background: orangered;
     font-weight: bold;
 }
-.footer ul li{
+
+.footer ul li {
     list-style: none;
 }
+
 /* .footer .first__col{
     flex-basis: 6%;
 }
@@ -624,109 +665,124 @@ i:hover {
 } */
 /* .footer .support{
     /* flex-basis: fit-content; */
-    /* display: flex;
+/* display: flex;
     flex-direction: column;
     justify-content: center; */
-    /* text-align: center;
+/* text-align: center;
     margin: 10px 0; 
 } */
 /* .download{
     flex-basis: 10%;
 } */
-.footer i{
+.footer i {
     color: orangered;
     /* font-size: 0.6rem; */
 }
-.footer .social_links .link_1{
+
+.footer .social_links .link_1 {
     width: 22%;
     background-color: rgb(66, 103, 178);
 }
-.footer .social_links .link_1:hover{
+
+.footer .social_links .link_1:hover {
     background-color: rgba(66, 103, 178, 0.9);
 }
 
-.footer .social_links .link_2{
+.footer .social_links .link_2 {
     width: 20%;
     background-color: rgb(0, 135, 186);
 }
-.footer .social_links .link_2:hover{
+
+.footer .social_links .link_2:hover {
     background-color: rgba(0, 135, 186, 0.9);
 }
 
-.footer .social_links .link_3{
+.footer .social_links .link_3 {
     width: 22%;
     background-color: rgb(28, 143, 199);
 }
-.footer .social_links .link_3:hover{
+
+.footer .social_links .link_3:hover {
     background-color: rgba(28, 143, 199, 0.9);
 }
 
-.footer .social_links .link_4{
+.footer .social_links .link_4 {
     width: 22%;
     background-color: rgb(186, 13, 13);
 }
-.footer .social_links .link_4:hover{
+
+.footer .social_links .link_4:hover {
     background-color: rgba(186, 13, 13, 0.9);
 }
 
-.footer .social_links a{
+.footer .social_links a {
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 600;
 }
-.footer .social_links a i{
+
+.footer .social_links a i {
     color: white;
     font-size: 1.5rem;
 }
 
-.footer .social_links .link_1 .left{
+.footer .social_links .link_1 .left {
     background: rgb(62, 92, 154);
 }
-.footer .social_links .link_1 .left:hover{
+
+.footer .social_links .link_1 .left:hover {
     background: rgba(62, 92, 154, 0.5);
 }
 
-.footer .social_links .link_2 .left{
+.footer .social_links .link_2 .left {
     background: rgb(6, 159, 219);
 }
-.footer .social_links .link_2 .left:hover{
+
+.footer .social_links .link_2 .left:hover {
     background: rgba(6, 159, 219, 0.5);
 }
 
-.footer .social_links .link_3 .left{
+.footer .social_links .link_3 .left {
     background: rgb(20, 110, 156);
 }
-.footer .social_links .link_3 .left:hover{
+
+.footer .social_links .link_3 .left:hover {
     background: rgba(20, 110, 156, 0.5);
 }
 
-.footer .social_links .link_4 .left{
+.footer .social_links .link_4 .left {
     background: rgb(255, 19, 20);
 }
-.footer .social_links .link_4 .left:hover{
+
+.footer .social_links .link_4 .left:hover {
     background: rgba(254, 7, 7, 0.5);
 }
 
-.footer .feature_links ul li .right a:hover, .support ul li .right a:hover{
+.footer .feature_links ul li .right a:hover,
+.support ul li .right a:hover {
     color: orangered !important;
 }
 
 /* copyright section start */
-.copyright{
+.copyright {
     width: auto;
     height: 4.5rem;
 }
-.copyright .col{
+
+.copyright .col {
     background: #03152d;
 }
-.copyright p{
+
+.copyright p {
     font-weight: 500;
     font-size: 1.1rem;
 }
-.copyright p span{
+
+.copyright p span {
     color: orangered;
 }
+
 /* copyright section end */
 
 /* footer section end here */
@@ -738,80 +794,83 @@ i:hover {
 @media only screen and (max-width:768px) {
 
     /* pricing section start */
-    .pricing .card-2{
+    .pricing .card-2 {
         margin-top: 0 !important;
     }
+
     /* pricing section end */
 
     /*----- footer section start -----*/
-    .footer .social_links .link_1{
+    .footer .social_links .link_1 {
         width: 22% !important;
     }
 
-    .footer .social_links .link_2{
+    .footer .social_links .link_2 {
         width: 18% !important;
     }
 
-    .footer .social_links .link_3{
+    .footer .social_links .link_3 {
         width: 20% !important;
     }
 
-    .footer .social_links .link_4{
+    .footer .social_links .link_4 {
         width: 20% !important;
     }
 
-    .footer .social_links a{
+    .footer .social_links a {
         font-size: 1rem;
     }
 
-    .footer .social_links a i{
+    .footer .social_links a i {
         font-size: 1.2rem;
     }
+
     /*----- footer section end -----*/
 }
 
 @media only screen and (min-width:1024px) {
 
     /*----- footer section start -----*/
-    .footer .social_links .link_1{
+    .footer .social_links .link_1 {
         width: 22% !important;
     }
 
-    .footer .social_links .link_2{
+    .footer .social_links .link_2 {
         width: 20% !important;
     }
 
-    .footer .social_links .link_3{
+    .footer .social_links .link_3 {
         width: 22% !important;
     }
 
-    .footer .social_links .link_4{
+    .footer .social_links .link_4 {
         width: 22% !important;
     }
+
     /*----- footer section end -----*/
 }
 
 @media only screen and (max-width:525px) {
 
     /*----- footer section start -----*/
-    .footer .social_links .link_1{
+    .footer .social_links .link_1 {
         width: 80% !important;
     }
 
-    .footer .social_links .link_2{
+    .footer .social_links .link_2 {
         width: 80% !important;
     }
 
-    .footer .social_links .link_3{
+    .footer .social_links .link_3 {
         width: 80% !important;
     }
 
-    .footer .social_links .link_4{
+    .footer .social_links .link_4 {
         width: 80% !important;
     }
+
     /*----- footer section end -----*/
 }
 
 
 /* media query end here */
-
