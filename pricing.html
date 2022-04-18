@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Websites Using Bootstrap 5</title>
+
+    <!-- BOOTSTRAP CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google fonts (Montserrat) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins&display=swap"
+        rel="stylesheet">
+
+    <!-- Google Font Awesome cdn link -->
+    <script src="https://kit.fontawesome.com/cda82737cc.js" crossorigin="anonymous"></script>
+
+    <!-- Iconic cnd link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- Swipper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- DEFAULT STYLE LINK -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--------------------------------- navbar start --------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container-md">
+            <a class="navbar-brand text-danger fw-bold fs-4" href="index.html">E-Learning</a>
+            <button class="navbar-toggler bg-danger px-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-center" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-center" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-center" href="./course.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-center" href="./event.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-center" href="./team.html">Teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-6 text-center" href="./pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-center" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 text-center" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--------------------------------- navbar end --------------------------------->
+
+    <!-------------------------- pricing heading start here-------------------------->
+
+    <section class="course__heading py-5 mt-5">
+        <div class="container-md">
+            <div class="row justify-content-center text-center align-items-center">
+                <div class="col align-items-center">
+                    <h1 class="text-uppercase text-white">OUR PRICING</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------- pricing heading end here-------------------------->
+
+    <!-------------------------- pricing body start here-------------------------->
+
+    <section class="pricing pricing_body pb-5" id="pricing">
+        <div class="container-md py-4 px-0">
+
+            <div class="row pt-3">
+
+                <div class="col-md-6 col-lg-4 mb-lg-3 mb-lg-0">
+                    <div class="card card-1 border-0 shadow mb-4" style="width: 20rem; margin: auto;">
+                        <h4 class="py-3 text-center text-white text-uppercase rounded-top">Basic</h4>
+                        <div class="card-body card-price">
+                            <h5 class="card-title text-center fs-3">$99 / Month</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Unlimited access courses</li>
+                            <li class="list-group-item text-center">Progress Report Available</li>
+                            <li class="list-group-item text-center">High resolution videos</li>
+                            <li class="list-group-item text-center">-----</li>
+                            <li class="list-group-item text-center">-----</li>
+                        </ul>
+                        <div class="card-body text-center">
+                            <a href="#" class="card-link btn px-4 py-2">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+                    <div class="card card-2 border-0 shadow mb-4" style="width: 20rem; margin: auto;">
+                        <h4 class="py-3 text-center text-white text-uppercase rounded-top">Basic</h4>
+                        <div class="card-body card-price">
+                            <h5 class="card-title text-center fs-3">$99 / Month</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Unlimited access courses</li>
+                            <li class="list-group-item text-center">Progress Report Available</li>
+                            <li class="list-group-item text-center">High resolution videos</li>
+                            <li class="list-group-item text-center">-----</li>
+                            <li class="list-group-item text-center">-----</li>
+                        </ul>
+                        <div class="card-body text-center">
+                            <a href="#" class="card-link btn px-4 py-2">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card card-3 border-0 shadow" style="width: 20rem; margin: auto;">
+                        <h4 class="py-3 text-center text-white text-uppercase rounded-top">Basic</h4>
+                        <div class="card-body card-price">
+                            <h5 class="card-title text-center fs-3">$99 / Month</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Unlimited access courses</li>
+                            <li class="list-group-item text-center">Progress Report Available</li>
+                            <li class="list-group-item text-center">High resolution videos</li>
+                            <li class="list-group-item text-center">-----</li>
+                            <li class="list-group-item text-center">-----</li>
+                        </ul>
+                        <div class="card-body text-center">
+                            <a href="#" class="card-link btn px-4 py-2">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!------------------------- pricing body end here-------------------------->
+
+    <!---------------------- footer section start here ---------------------->
+    <footer class="footer pt-5">
+        <div class="container-md py-4">
+            <div class="row justify-content-center mb-md-2">
+                <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                    <h3>Contact Us</h3>
+                    <ul class="p-0">
+                        <li class="list d-flex">
+                            <div class="left pe-3">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="right">
+                                <p class="text-white fs-6">Spring Store London Oxford Street, 012 United Kingdom</p>
+                            </div>
+                        </li>
+                        <li class="d-flex mb-2">
+                            <div class="left pe-3">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="right text-white fs-6">
+                                +00 1234 456789
+                            </div>
+                        </li>
+                        <li class="d-flex mb-2">
+                            <div class="left pe-3">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="right text-white fs-6">
+                                info@example.com
+                            </div>
+                        </li>
+                        <li class="d-flex">
+                            <div class="left text-danger pe-3 fs-5">
+                                <ion-icon name="calculator-outline"></ion-icon>
+                            </div>
+                            <div class="right text-white fs-6">
+                                000 123 2294 089
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-3 mb-md-0 feature_links">
+                    <h3>Feature Links</h3>
+                    <ul class="p-0">
+                        <div class="row">
+                            <div class="col-6">
+                                <li class="d-flex mb-2">
+                                    <div class="left pe-2">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                    </div>
+                                    <div class="right">
+                                        <a href="#" class="text-decoration-none text-white">About Us</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex mb-2">
+                                    <div class="left pe-2">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                    </div>
+                                    <div class="right">
+                                        <a href="./course.html" class="text-decoration-none text-white">Courses</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex mb-2">
+                                    <div class="left pe-2">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                    </div>
+                                    <div class="right">
+                                        <a href="#" class="text-decoration-none text-white">Scholarship</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex">
+                                    <div class="left pe-2">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                    </div>
+                                    <div class="right">
+                                        <a href="./contact.html" class="text-decoration-none text-white">Contact</a>
+                                    </div>
+                                </li>
+                            </div>
+
+                            <div class="col-6">
+                                <li class="d-flex mb-2">
+                                    <div class="left pe-2">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                    </div>
+                                    <div class="right">
+                                        <a href="./team.html" class="text-decoration-none text-white">Teachers</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex mb-2">
+                                    <div class="left pe-2">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                    </div>
+                                    <div class="right">
+                                        <a href="./pricing.html" class="text-decoration-none text-white">Pricing</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex mb-2">
+                                    <div class="left pe-2">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                    </div>
+                                    <div class="right">
+                                        <a href="./blog.html" class="text-decoration-none text-white">Blog</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex">
+                                    <div class="left pe-2">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                    </div>
+                                    <div class="right">
+                                        <a href="./event.html" class="text-decoration-none text-white">Events</a>
+                                    </div>
+                                </li>
+                            </div>
+
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-3 mb-mb-0 mt-md-3 mt-lg-0 support">
+                    <h3>Support</h3>
+                    <ul class="p-0">
+                        <li class="d-flex mb-2">
+                            <div class="left pe-2">
+                                <i class="fa-regular fa-circle-dot"></i>
+                            </div>
+                            <div class="right">
+                                <a href="" class="text-decoration-none text-white">FAQ's</a>
+                            </div>
+                        </li>
+                        <li class="d-flex">
+                            <div class="left pe-2">
+                                <i class="fa-regular fa-circle-dot"></i>
+                            </div>
+                            <div class="right">
+                                <a href="" class="text-decoration-none text-white">Support</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0 mt-md-3 mt-lg-0">
+                    <h4>Download Our App</h4>
+                    <ul class="p-0">
+                        <li class="d-flex">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="https://play.google.com/store/search?q=e-learning%20app&c=apps">
+                                        <img src="Images/footer1.png" alt="" class="w-100">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="https://www.apple.com/in/app-store/">
+                                        <img src="Images/footer2.png" alt="" class="w-100 rounded">
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-content-center social_links">
+                <div class="col-6 col-md-3 link_1 m-2 me-md-3">
+                    <div class="row" style="height: 4rem;">
+                        <div class="col-3 d-flex justify-content-center align-items-center left">
+                            <a href="https://www.facebook.com/"><i
+                                    class="fa-brands fa-facebook-f align-content-center"></i></a>
+                        </div>
+                        <div class="col-9 d-flex align-items-center">
+                            <a href="https://www.facebook.com/">FACEBOOK</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 link_2 m-2 mx-md-3">
+                    <div class="row" style="height: 4rem;">
+                        <div class="col-3 d-flex justify-content-center align-items-center left">
+                            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="col-9 d-flex align-items-center right">
+                            <a href="https://twitter.com/">TWITTER</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 link_3 m-2 mx-md-3">
+                    <div class="row" style="height: 4rem;">
+                        <div class="col-3 d-flex justify-content-center align-items-center left">
+                            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-9 d-flex align-items-center">
+                            <a href="https://www.linkedin.com/">LINKEDIN</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 link_4 m-2 ms-md-3">
+                    <div class="row" style="height: 4rem;">
+                        <div class="col-3 d-flex justify-content-center align-items-center left">
+                            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <div class="col-9 d-flex align-items-center">
+                            <a href="https://www.youtube.com/">YOUTUBE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row copyright mt-3">
+            <div class="col mt-3 text-center d-flex  justify-content-center align-items-center">
+                <p class="text-white m-0">Copyright &#169 2020 <span><a href="./index.html" class="text-decoration-none text-danger">E-learning</a></span>. All right reserved</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!---------------------- footer section end here ---------------------->
+
+
+
+
+    <!-- BootStrap Script LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

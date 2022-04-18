@@ -8,9 +8,26 @@ window.addEventListener('scroll', () => {
 
 // close the nabvar on clicking link //
 
-const navLinks = document.querySelectorAll('.nav-item')
-const menuToggle = document.getElementById('navbarSupportedContent')
-const bsCollapse = new bootstrap.Collapse(menuToggle)
-navLinks.forEach((l) => {
-    l.addEventListener('click', () => { bsCollapse.toggle() })
-})
+const navItem = document.querySelectorAll('.nav-item');
+const menuToggle = document.getElementById('navbarSupportedContent');
+const bsCollapse = new bootstrap.Collapse(menuToggle);
+navItem.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() });
+});
+
+// const navLinks = document.querySelectorAll('.nav-link');
+// navLinks.forEach((a) => {
+//     // console.log(a);
+//     a.addEventListener('click', () => {
+//         this.className += "active";
+//         console.log(this);
+//     });
+// });
+
+// for(var i=0; i < navLinks.length; i++) {
+//     navLinks[i].addEventListener('click', function() {
+//         var current = document.getElementsByClassName("active");
+//         current[0].className = current[0].className.replace("active");
+//         this.className += "active";
+//     })
+// }

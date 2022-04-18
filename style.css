@@ -56,12 +56,10 @@ h6 {
     font-weight: 600;
 }
 
-nav{
+nav {
     position: fixed;
     top: 0;
     z-index: 11;
-    width: 100vw;
-    height: 5rem;
 }
 
 .nav-item {
@@ -69,21 +67,33 @@ nav{
     font-size: 1.2rem;
 }
 
-.nav-item a:hover,
-.nav-item a:active,
-.nav-item a:focus {
+nav ul li a {
+    color: #010b18 !important;
+    transition: 0.9s ease;
+}
+
+nav ul li .active{
+    color: orangered !important;
+    transition: 0.5s ease;
+}
+
+nav ul li :hover{
     color: orangered !important;
 }
 
-/* change navbar styles on scroll using javascript*/
-.window-scroll{
-    background: white !important;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+/* .nav-item a:hover,
+.nav-item a:active {
+    color: orangered !important;
 }
 
+.change_Color{
+    color: orangered !important;
+} */
 
-nav ul li a {
-    color: #010b18 !important;
+/* change navbar styles on scroll using javascript*/
+.window-scroll {
+    /* background: white !important; */
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 /* Home section end here */
@@ -232,14 +242,14 @@ nav ul li a {
     color: #0B2D4E;
 }
 
-/* course section end here */
-
 .course__heading {
     background-image: linear-gradient(to bottom, rgba(7, 41, 77, 0.8) 5%, rgba(7, 41, 77, 1) 95%), url('Images/bg3.jpg');
-    height: 30vh;
-    top: 10rem;
+    position: relative;
+    top: 1.2rem;
+    overflow: hidden;
 }
 
+/* course section end here */
 
 /* ===================================================================== */
 
@@ -380,7 +390,7 @@ i:hover {
 .team {
     overflow-x: hidden;
     position: relative;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
     background: rgb(245, 245, 245);
 }
 
@@ -487,6 +497,10 @@ i:hover {
 .pricing .card-1 .card-body a {
     background: #4382FF;
     color: white;
+}
+
+.pricing_body{
+    margin-top: 7rem !important;
 }
 
 /* card-1 end */
@@ -605,6 +619,98 @@ i:hover {
 
 /* ================================================================= */
 
+/* contact section start here */
+.contact form label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #0B2D4E;
+}
+.contact-item1 .inner_1{
+    /* width: 5em; */
+    margin-right: 1rem;
+}
+.contact-item1 .icon {
+    width: 4rem;
+    height: 4rem;
+    background-color: #0B2D4E;
+    border-radius: 5rem;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.contact-item1 .icon>i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orangered !important;
+    font-size: 2rem;
+}
+
+.contact-item2 .icon {
+    width: 4rem;
+    height: 4rem;
+    background-color: #0B2D4E;
+    border-radius: 5rem;
+    /* margin: auto; */
+    display: inline-block;
+    position: relative;
+}
+
+.contact-item2 .icon>i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orangered !important;
+    font-size: 2rem;
+}
+
+.contact-item3 .icon {
+    width: 4rem;
+    height: 4rem;
+    background-color: #0B2D4E;
+    border-radius: 5rem;
+    /* margin: auto; */
+    display: inline-block;
+    position: relative;
+}
+
+.contact-item3 .icon>i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orangered !important;
+    font-size: 2rem;
+}
+
+.contact-item4 .icon {
+    width: 4rem;
+    height: 4rem;
+    background-color: #0B2D4E;
+    border-radius: 5rem;
+    /* margin: auto; */
+    display: inline-block;
+    position: relative;
+}
+
+.contact-item4 .icon .icon_4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: orangered !important;
+    font-size: 2.5rem;
+}
+
+
+
+/* contact section end here */
+
+/* ================================================================= */
+
 /* footer section end here */
 .footer {
     background-image: linear-gradient(to bottom, rgba(9, 33, 66, 0.9) 5%, rgba(9, 33, 66, 1) 95%), url('Images/bg4.jpeg');
@@ -657,26 +763,13 @@ i:hover {
     list-style: none;
 }
 
-/* .footer .first__col{
-    flex-basis: 6%;
-}
-.footer .second__col{
-    flex-basis: 13%;
-} */
-/* .footer .support{
-    /* flex-basis: fit-content; */
-/* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-/* text-align: center;
-    margin: 10px 0; 
-} */
-/* .download{
-    flex-basis: 10%;
-} */
 .footer i {
     color: orangered;
     /* font-size: 0.6rem; */
+}
+
+.feature_links {
+    flex-grow: 2;
 }
 
 .footer .social_links .link_1 {
@@ -796,6 +889,10 @@ i:hover {
     /* pricing section start */
     .pricing .card-2 {
         margin-top: 0 !important;
+    }
+
+    .pricing_body{
+        margin-top: 4rem !important;
     }
 
     /* pricing section end */
